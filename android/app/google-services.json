@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "263173999471",
+    "project_id": "pu-resources-flutter-ef03d",
+    "storage_bucket": "pu-resources-flutter-ef03d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263173999471:android:d0f7df1b3240348317769a",
+        "android_client_info": {
+          "package_name": "com.example.pu_resourcse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtg_af9Jvr8A-yJkrxGu431APsLeNOxPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
