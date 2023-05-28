@@ -1,4 +1,6 @@
 
+import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
 import 'package:pu_resourcse/IT/SEM1/EngineeringGraphics.dart';
 import 'package:pu_resourcse/IT/SEM1/Maths1.dart';
@@ -43,6 +45,8 @@ import 'package:pu_resourcse/IT/SEM7/CyberPhysicalSystems.dart';
 import 'package:pu_resourcse/IT/SEM7/DataMining.dart';
 import 'package:pu_resourcse/IT/SEM8/AdvancedPythonProgramming.dart';
 import 'package:pu_resourcse/IT/SEM8/DataScience.dart';
+
+import 'login.dart';
 
 
 class Branches extends StatefulWidget {
@@ -163,6 +167,18 @@ class _BranchesState extends State<Branches>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+
+          IconButton(
+              onPressed: (){
+                FirebaseAuth.instance.signOut().then((value){
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const  MyLogin(title: '',)));
+                });
+              },
+
+              icon: const Icon(Icons.logout)
+          )
+        ],
         title: Text(widget.title),
       ),
       body: ListView.separated(
