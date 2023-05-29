@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../gridview.dart';
+
 class EngineeringGraphics extends StatefulWidget {
   const EngineeringGraphics({Key? key, required title}) : super(key: key);
 
@@ -10,6 +12,6 @@ class EngineeringGraphics extends StatefulWidget {
 class _EngineeringGraphicsState extends State<EngineeringGraphics> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }

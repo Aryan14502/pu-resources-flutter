@@ -198,6 +198,9 @@ class _BranchesState extends State<Branches>{
     } else if (node["level"] == 2) {
       lp = 30;
       fontSize = 20;
+    } else if (node["level"] == 3) {
+      lp = 30;
+      fontSize = 20;
     }
 
     if (node["children"] != null) {

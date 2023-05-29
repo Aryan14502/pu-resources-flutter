@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../gridview.dart';
+
 class DatabaseManagementSystem extends StatefulWidget {
   const DatabaseManagementSystem({Key? key, required title}) : super(key: key);
 
@@ -10,6 +12,6 @@ class DatabaseManagementSystem extends StatefulWidget {
 class _DatabaseManagementSystemState extends State<DatabaseManagementSystem> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../gridview.dart';
+
 class ProductRealization extends StatefulWidget {
   const ProductRealization({Key? key, required title}) : super(key: key);
 
@@ -10,6 +12,6 @@ class ProductRealization extends StatefulWidget {
 class _ProductRealizationState extends State<ProductRealization> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }
