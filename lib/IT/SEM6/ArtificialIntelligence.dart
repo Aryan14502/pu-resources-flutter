@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pu_resourcse/gridview.dart';
 
 class ArtificialIntelligence extends StatefulWidget {
   const ArtificialIntelligence({Key? key, required title}) : super(key: key);
@@ -10,6 +11,6 @@ class ArtificialIntelligence extends StatefulWidget {
 class _ArtificialIntelligenceState extends State<ArtificialIntelligence> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }

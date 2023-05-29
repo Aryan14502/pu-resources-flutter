@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pu_resourcse/gridview.dart';
 
 class DataScience extends StatefulWidget {
   const DataScience({Key? key, required title}) : super(key: key);
@@ -10,6 +11,6 @@ class DataScience extends StatefulWidget {
 class _DataScienceState extends State<DataScience> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }

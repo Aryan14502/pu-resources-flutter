@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../gridview.dart';
+
 class JavaProgramming1 extends StatefulWidget {
   const JavaProgramming1({Key? key, required title}) : super(key: key);
 
@@ -10,6 +12,6 @@ class JavaProgramming1 extends StatefulWidget {
 class _JavaProgramming1State extends State<JavaProgramming1> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }

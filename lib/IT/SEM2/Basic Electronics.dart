@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pu_resourcse/gridview.dart';
 
 class BasicElectronics extends StatefulWidget {
   const BasicElectronics({Key? key, required title}) : super(key: key);
@@ -10,6 +11,6 @@ class BasicElectronics extends StatefulWidget {
 class _BasicElectronicsState extends State<BasicElectronics> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }

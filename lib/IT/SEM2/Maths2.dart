@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../gridview.dart';
+
 class Mathematics2 extends StatefulWidget {
   const Mathematics2({Key? key, required title}) : super(key: key);
 
@@ -10,6 +12,6 @@ class Mathematics2 extends StatefulWidget {
 class _Mathematics2State extends State<Mathematics2> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }

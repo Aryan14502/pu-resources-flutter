@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../gridview.dart';
+
 class ProbabilityStatisticsandNumericalMethods1 extends StatefulWidget {
   const ProbabilityStatisticsandNumericalMethods1({Key? key, required title}) : super(key: key);
 
@@ -10,6 +12,6 @@ class ProbabilityStatisticsandNumericalMethods1 extends StatefulWidget {
 class _ProbabilityStatisticsandNumericalMethodsState extends State<ProbabilityStatisticsandNumericalMethods1> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MyGridView();
   }
 }
